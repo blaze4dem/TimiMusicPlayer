@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".details">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0af"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="16dp"
+        android:id="@+id/song_list"
+        android:text="@string/list"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_blur_on_black_24dp"
+        android:contentDescription="background image"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Song Name"
+        android:layout_centerInParent="true"
+        android:textSize="32sp"
+        android:id="@+id/song_name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Artist Name"
+        android:textSize="20sp"
+        android:layout_below="@+id/song_name"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/artist_name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Duration"
+        android:textSize="16sp"
+        android:layout_below="@+id/artist_name"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/song_duration"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/song_duration"
+        android:id="@+id/play_song"
+        android:text="PLAY SONG"/>
+
+</RelativeLayout>

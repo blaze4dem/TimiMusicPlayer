@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Timi Music Player</string>
+    <string name="now">Current Playing Song</string>
+    <string name="list">Music Library</string>
+    <string name="current">Current Playing Song</string>
+    <string name="details">Song Details</string>
+</resources>
